@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styly.css">
+</head>
+<body >
+  
+    <marquee class="dec" scrollamount="15" direction="right"> Rock paper Scissor!</marquee>
+    <div class="main">
+        <div class="headc">
+            <h1 class="heading">ROCK PAPER SCISSORS</h1>
+        </div>
+        <div class="scc">
+            <div class="bc">
+                <button class="but1" onclick="playGame('Rock')">Rock</button>
+                <button class="but2" onclick="playGame('Paper')">Paper</button>
+                <button class="but3" onclick="playGame('Scissors')">Scissors</button>
+            </div>
+            <div class="scorecard">
+                    <p class="score">Your Score:<span id="sc">  0</span><br>Computer Score:<span id="sc2">  0</span>
+            </div>
+        </div>
+    </div>
+    <p id="result">Make your move!</p>
+    <script src="scripty.js"></script>
+</body>
+</html>
